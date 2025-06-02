@@ -1,4 +1,16 @@
-NAME = templates
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: rgiambon <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/06/02 12:52:14 by rgiambon          #+#    #+#              #
+#    Updated: 2025/06/02 12:52:27 by rgiambon         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+NAME = array
 CXX = c++                  
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address
 LDFLAGS = -fsanitize=address
